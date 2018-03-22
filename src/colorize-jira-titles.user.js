@@ -276,7 +276,7 @@
             return Math.round(opacity * 100);
           },
         },
-      },
+      }
     );
 
     const appRoot = document.createElement('div');
@@ -286,6 +286,6 @@
     new Vue(
       {
         el: '#app',
-      },
+      }
     );
 })();
